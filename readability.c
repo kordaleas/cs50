@@ -15,9 +15,10 @@ int main(void)
     // in a row.
 
     string text = get_string("Text: ");
-    for (int i=0; i < strlen(text); i++)
+    for (int i = 0; i < strlen(text); i++)
     {
-        switch (text[i]){
+        switch (text[i])
+        {
             case '!':
                 sentences++;
                 break;
@@ -54,13 +55,16 @@ int main(void)
     int Coleman_Liau_index;
     int idx = Coleman_Liau_index = round(0.0588 * L - 0.296 * S - 15.8);
 
-    if (idx >= 16) {
+    if (idx >= 16)
+    {
         printf("Grade 16+\n");
     }
-    else if (idx < 1) {
+    else if (idx < 1)
+    {
         printf("Before Grade 1\n");
     }
-    else {
+    else
+    {
         printf("Grade %i\n", idx);
     }
 
