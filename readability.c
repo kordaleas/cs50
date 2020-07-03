@@ -61,7 +61,7 @@ int main(void)
         printf("Before Grade 1\n");
     }
     else {
-        printf("Grade %i", idx);
+        printf("Grade %i\n", idx);
     }
 
 
